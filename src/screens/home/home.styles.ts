@@ -20,6 +20,7 @@ export const styles = StyleSheet.create({
     justifyContent: "flex-start",
   },
   productsList: {
+    flex: 1,
     marginBottom: 16,
     width: "100%",
   },
