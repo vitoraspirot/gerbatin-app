@@ -1,4 +1,4 @@
-import { TouchableOpacity, Text } from "react-native";
+import { TouchableOpacity, Text, Pressable } from "react-native";
 import { styles } from "./d-product-card.styles";
 import { useNavigation } from "@react-navigation/native";
 import { ROUTES } from "../../types/routes";
@@ -16,8 +16,8 @@ export const DProductCard = ({ title, onPress }: Props) => {
   };
 
   return (
-    <TouchableOpacity style={styles.card} onPress={onPress ?? handlePress}>
+    <Pressable style={styles.card} onPress={onPress ?? handlePress}>
       <Text style={{ color: "blue" }}>{title}</Text>
-    </TouchableOpacity>
+    </Pressable>
   );
 };

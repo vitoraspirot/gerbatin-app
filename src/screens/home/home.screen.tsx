@@ -19,7 +19,7 @@ export const HomeScreen = () => {
         <Text style={{ color: "blue", marginBottom: 16 }}>
           Todos os produtos
         </Text>
-        <View>
+        <View style={{ width: "100%" }}>
           <DProductCard title="Drone 1" />
           <DProductCard title="Drone 2" />
         </View>
