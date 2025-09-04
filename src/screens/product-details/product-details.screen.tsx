@@ -13,6 +13,8 @@ const specs = [
   { label: "Versão", value: "Combo" },
 ];
 
+const modelName = "Drone Air 3S Fly More Combo (Sem tela) BR - DJI055";
+
 export const ProductDetaisScreen = () => {
   return (
     <ScrollView style={{ flex: 1, backgroundColor: "#fff" }}>
@@ -26,8 +28,8 @@ export const ProductDetaisScreen = () => {
 
       <View style={{ paddingHorizontal: 15 }}>
         <Text style={{ fontSize: 16, fontWeight: "600" }}>
-          Drone Air 3S Fly More Combo (Sem tela) BR - DJI055
-        </Text>
+         {modelName}
+       </Text>
 
         <Text style={{ fontSize: 14, color: "gray", marginTop: 5 }}>DJI</Text>
 
@@ -54,7 +56,7 @@ export const ProductDetaisScreen = () => {
 
     
       <TouchableOpacity style={styles.button}
-        onPress={() => Linking.openURL("https://wa.me/5551995230094?text=Olá,%20tive%20interesse%20no%20Drone%20Air%203S%20Fly%20More%20Combo.%0AMeu%20e-mail:")}
+        onPress={() => Linking.openURL(`https://wa.me/5551995230094?text=Olá,%20tive%20interesse%20no%20${encodeURIComponent(modelName)}.%0AMeu%20e-mail:`)}
       >
         <Ionicons name="logo-whatsapp" size={20} color="#fff" />
         <Text style={{ color: "#fff", fontSize: 16, marginLeft: 10 }}>
