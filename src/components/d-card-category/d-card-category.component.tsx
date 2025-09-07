@@ -1,14 +1,18 @@
-import { TouchableOpacity, Text } from "react-native";
-import { styles } from "./d-card-category.styles";
+import React from "react";
+import { TouchableOpacity, Text, View, Image, Pressable } from "react-native";
+
 import { useNavigation } from "@react-navigation/native";
+
+import { styles } from "./d-card-category.styles";
 import { ROUTES } from "../../types/routes";
+import { colors } from "../../types/colors";
 
 interface Props {
-  title?: string;
-  onPress?: () => void;
+  label: string;
+  imageSource: any;
 }
 
-export const DCardCategory = ({ title, onPress }: Props) => {
+export const DCardCategory = ({ label, imageSource }: Props) => {
   const { navigate } = useNavigation();
 
   const handlePress = () => {
@@ -16,8 +20,13 @@ export const DCardCategory = ({ title, onPress }: Props) => {
   };
 
   return (
-    <TouchableOpacity style={styles.card} onPress={handlePress}>
-      <Text style={{ color: "blue" }}>{title}</Text>
+    <TouchableOpacity
+      style={styles.container}
+      onPress={handlePress}
+      activeOpacity={0.7}
+    >
+      <Image source={imageSource} style={styles.image} resizeMode="contain" />
+      <Text style={styles.label}>{label}</Text>
     </TouchableOpacity>
   );
 };
