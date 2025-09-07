@@ -1,0 +1,229 @@
+{
+  "drones": [
+    {
+      "id": 33,
+      "name": "Drone DJI Mini 3 Fly More Combo (Com tela) BR - DJI033",
+      "color": "Cinza",
+      "dimensions": {
+        "width": "36.2cm",
+        "height": "7cm",
+        "length": "25.1cm"
+      },
+      "weight": "800g",
+      "applications": "Uso Comercial",
+      "operation_time": "34min",
+      "version": "Combo",
+      "category": "iniciante"
+    },
+    {
+      "id": 36,
+      "name": "Drone DJI Air 3 Fly More Combo (Sem tela) BR - DJI036",
+      "color": "Cinza",
+      "dimensions": {
+        "width": "32.6cm",
+        "height": "10.58cm",
+        "length": "25.88cm"
+      },
+      "weight": "1092g",
+      "applications": "Uso Recreativo e Comercial",
+      "operation_time": "34min",
+      "version": "Combo",
+      "category": "avançado"
+    },
+    {
+      "id": 41,
+      "name": "Drone DJI Mini 4 Pro Standard (Sem tela) BR - DJI041",
+      "color": "Cinza",
+      "dimensions": {
+        "width": "37.3cm",
+        "height": "10.1cm",
+        "length": "29.8cm"
+      },
+      "weight": "670g",
+      "applications": "Uso Recreativo e Comercial",
+      "operation_time": "34min",
+      "version": "Standard",
+      "category": "intermediário"
+    },
+    {
+      "id": 44,
+      "name": "Drone DJI Mini 4 Pro Fly More Combo Plus (Com tela) BR - DJI044",
+      "color": "Cinza",
+      "dimensions": {
+        "width": "13.2cm",
+        "height": "19.35cm",
+        "length": "23.6cm"
+      },
+      "weight": "950g",
+      "applications": "Uso Recreativo e Comercial",
+      "operation_time": "31min",
+      "version": "Combo Plus",
+      "category": "intermediário"
+    },
+    {
+      "id": 47,
+      "name": "Drone DJI Mini 3 Standard (Com tela) BR - DJI047",
+      "color": "Cinza",
+      "dimensions": {
+        "width": "36.2cm",
+        "height": "7cm",
+        "length": "25.1cm"
+      },
+      "weight": "639g",
+      "applications": "Uso Recreativo e Comercial",
+      "operation_time": "38min",
+      "version": "Standard",
+      "category": "iniciante"
+    },
+    {
+      "id": 48,
+      "name": "Drone DJI Avata 2 Fly More Combo (1 Bateria) BR - DJI048",
+      "color": "Preto",
+      "dimensions": {
+        "width": "21.2cm",
+        "height": "6.4cm",
+        "length": "18.5cm"
+      },
+      "weight": "377g",
+      "applications": "Uso Recreativo e Comercial",
+      "operation_time": "31min",
+      "version": "Standard",
+      "category": "intermediário"
+    },
+    {
+      "id": 50,
+      "name": "Drone DJI Neo Standard BR - DJI050",
+      "color": "Cinza",
+      "dimensions": {
+        "width": "13cm",
+        "height": "4.85cm",
+        "length": "15.7cm"
+      },
+      "weight": "135g",
+      "applications": "Uso Recreativo",
+      "operation_time": "20min",
+      "version": "Standard",
+      "category": "iniciante"
+    },
+    {
+      "id": 51,
+      "name": "Drone DJI Neo Fly More Combo BR - DJI051",
+      "color": "Cinza",
+      "dimensions": {
+        "width": "10.25cm",
+        "height": "4.85cm",
+        "length": "15.7cm"
+      },
+      "weight": "642g",
+      "applications": "Uso Recreativo",
+      "operation_time": "20min",
+      "version": "Standard",
+      "category": "iniciante"
+    },
+    {
+      "id": 52,
+      "name": "Drone DJI Neo Fly More Combo (DJI Motion 3&DJI Goggles N3) BR - DJI052",
+      "color": "Cinza",
+      "dimensions": {
+        "width": "13cm",
+        "height": "4.85cm",
+        "length": "15.7cm"
+      },
+      "weight": "968g",
+      "applications": "Uso Recreativo",
+      "operation_time": "20min",
+      "version": "Combo",
+      "category": "iniciante"
+    },
+    {
+      "id": 54,
+      "name": "Drone DJI Air 3S Standard (Sem tela) BR - DJI054",
+      "color": "Cinza",
+      "dimensions": {
+        "width": "32.6cm",
+        "height": "10.58cm",
+        "length": "25.88cm"
+      },
+      "weight": "1126g",
+      "applications": "Uso Recreativo e Comercial",
+      "operation_time": "45min",
+      "version": "Standard",
+      "category": "avançado"
+    },
+    {
+      "id": 57,
+      "name": "Drone DJI Mini 4K Standard (Sem tela) BR - DJI057",
+      "color": "Cinza",
+      "dimensions": {
+        "width": "8.1cm",
+        "height": "5.8cm",
+        "length": "13.8cm"
+      },
+      "weight": "246g",
+      "applications": "Uso Recreativo",
+      "operation_time": "31min",
+      "version": "Standard",
+      "category": "iniciante"
+    },
+    {
+      "id": 58,
+      "name": "Drone DJI Mini 4K Fly More Combo (Sem tela) BR - DJI058",
+      "color": "Cinza",
+      "dimensions": {
+        "width": "8.1cm",
+        "height": "5.8cm",
+        "length": "13.8cm"
+      },
+      "weight": "246g",
+      "applications": "Uso Recreativo",
+      "operation_time": "31min",
+      "version": "Combo",
+      "category": "iniciante"
+    },
+    {
+      "id": 59,
+      "name": "Drone DJI Flip Standard (Sem tela) BR - DJI059",
+      "color": "Cinza",
+      "dimensions": {
+        "width": "28cm",
+        "height": "7.9cm",
+        "length": "23.3cm"
+      },
+      "weight": "643g",
+      "applications": "Uso Recreativo",
+      "operation_time": "31min",
+      "version": "Standard",
+      "category": "iniciante"
+    },
+    {
+      "id": 60,
+      "name": "Drone DJI Flip Standard (Com tela) BR - DJI060",
+      "color": "Cinza",
+      "dimensions": {
+        "width": "28cm",
+        "height": "7.9cm",
+        "length": "23.3cm"
+      },
+      "weight": "747g",
+      "applications": "Uso Recreativo",
+      "operation_time": "31min",
+      "version": "Standard",
+      "category": "iniciante"
+    },
+    {
+      "id": 61,
+      "name": "Drone DJI Flip Fly More Combo (Com tela) BR - DJI061",
+      "color": "Cinza",
+      "dimensions": {
+        "width": "28cm",
+        "height": "7.9cm",
+        "length": "23.3cm"
+      },
+      "weight": "339g",
+      "applications": "Uso Recreativo",
+      "operation_time": "31min",
+      "version": "Combo",
+      "category": "iniciante"
+    }
+  ]
+}

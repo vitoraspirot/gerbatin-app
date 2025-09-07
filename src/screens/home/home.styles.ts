@@ -14,7 +14,7 @@ export const styles = StyleSheet.create({
     marginTop: 16,
   },
   productsContainer: {
-    marginTop: 16,
+    marginTop: 24,
     width: "100%",
     alignItems: "flex-start",
     justifyContent: "flex-start",
