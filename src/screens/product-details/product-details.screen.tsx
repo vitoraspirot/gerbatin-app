@@ -41,8 +41,6 @@ export const ProductDetaisScreen = () => {
       <View style={{ paddingHorizontal: 15 }}>
         <Text style={{ fontSize: 16, fontWeight: "600" }}>{drone.name}</Text>
 
-        {/* <Text style={{ fontSize: 14, color: "gray", marginTop: 5 }}>DJI</Text> */}
-
         <Text style={{ color: "blue", marginTop: 25 }}>Ficha Técnica</Text>
       </View>
 
@@ -76,7 +74,7 @@ export const ProductDetaisScreen = () => {
         onPress={() =>
           Linking.openURL(
             `https://wa.me/5551995230094?text=Olá,%20tive%20interesse%20no%20${encodeURIComponent(
-              modelName
+              drone.name
             )}.%0AMeu%20e-mail:`
           )
         }
