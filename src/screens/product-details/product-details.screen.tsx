@@ -11,6 +11,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { styles } from "./product-detais.styles";
 import { useRoute } from "@react-navigation/native";
 import { Drone } from "@/types/types";
+import { getDroneAssets } from "@/utils/droneImages";
 
 export const ProductDetaisScreen = () => {
   const route = useRoute();
@@ -29,11 +30,13 @@ export const ProductDetaisScreen = () => {
     { label: "Versão", value: drone.version },
   ];
 
+  const uri = getDroneAssets({ id: drone.id });
+
   return (
     <ScrollView style={{ flex: 1, backgroundColor: "#fff" }}>
       <View style={{ alignItems: "center", marginVertical: 15 }}>
         <Image
-          source={require("../../assets/avancado/055/drone.png")}
+          source={uri}
           style={{ width: 200, height: 200, resizeMode: "contain" }}
         />
       </View>
