@@ -5,6 +5,7 @@ import { CategoryListScreen } from "../screens/category-list/category-list.scree
 import { ProductDetaisScreen } from "../screens/product-details/product-details.screen";
 import { View, Image } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { colors } from "@/types/colors";
 
 export type RootStackParamList = {
   Home: undefined;
@@ -45,7 +46,8 @@ export const RootStack = () => {
         component={CategoryListScreen}
         options={{
           headerTitle: "",
-          headerBackTitle: "",
+          headerBackTitle: "Voltar",
+          headerTintColor: colors.blue,
         }}
       />
       <Stack.Screen
@@ -53,7 +55,8 @@ export const RootStack = () => {
         component={ProductDetaisScreen}
         options={{
           headerTitle: "",
-          headerBackTitle: "",
+          headerBackTitle: "Voltar",
+          headerTintColor: colors.blue,
         }}
       />
     </Stack.Navigator>
