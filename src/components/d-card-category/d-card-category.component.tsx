@@ -16,7 +16,7 @@ export const DCardCategory = ({ label, imageSource }: Props) => {
   const { navigate } = useNavigation();
 
   const handlePress = () => {
-    navigate(ROUTES.CATEGORY_LIST);
+    navigate(ROUTES.CATEGORY_LIST, { category: label });
   };
 
   return (

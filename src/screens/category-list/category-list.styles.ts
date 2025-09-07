@@ -1,10 +1,12 @@
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-  container: {
+  scroll: {
     flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
+    backgroundColor: "white",
+  },
+  content: {
     padding: 16,
+    alignItems: "center",
   },
 });
